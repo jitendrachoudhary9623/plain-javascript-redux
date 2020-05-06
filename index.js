@@ -34,7 +34,7 @@
         listners.forEach(listner=>listner())
     }
     return {
-        getState, //2.get the state
+        getState, 
         subscribe,
         dispatch
     }
